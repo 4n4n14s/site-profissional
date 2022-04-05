@@ -1,19 +1,23 @@
 .container{
     display: flex;
     
+    
    
 }
+
+
 /*menu*/
 .menu{
     background-color: #252062;
     justify-content: space-between;
+    max-height: 70px;
 
     
 
 }
 .menu img{
-    padding: 20px;
-    width: 100px;
+    margin-left: 100px;
+    width: 70px;
     
     
 }.listmenu ul{
@@ -24,7 +28,7 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding-top: 50px;
+    padding-top: 10px;
     margin-right: 100px;
     color: aliceblue;
     
@@ -38,10 +42,9 @@
 .apresentacao{
     margin: 100px;
     display: flex;
-    justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
-    align-content: center;
+    margin-bottom: 200px;
     
 
 }
@@ -49,16 +52,168 @@
     height: 700px;
     min-height: 300px;
 }
+/*sobre mim*/
+
 .sobreMin{
-    display: flex;
+    justify-content: center;
     align-items:center ;
-    align-content: center;
-    justify-content: space-around;
+    margin-bottom: 200px;
     padding: 70px;
     margin-right: 70px;
 }
 .sobreMin p{
+    margin-left: 100px;
+    width: 200px;
+    
+    
+}
+/* meus trabalhos*/
+.meutrab{
+    display: flex;
+    justify-content: center;
+}
+.contTrab2{
     
     width: 200px;
+    height: 400px;
+    background-color: #252062;
+    margin: 30px;
+    margin-bottom: 200px;
+    
+
+    
+    
+
+}
+.contTrab2 img{
+    width: 90px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.contTrab2 h3{
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.contTrab2 p{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 31px;
+    
+}
+.contTrab2 a{
+    color: aliceblue;
+    margin-left: 70px;
+}    
+.contTrab3{
+    align-items: center;
+    width: 200px;
+    height: 400px;
+    background-color: #252062;
+    margin: 30px;
+    
+}.contTrab3 img{
+    width: 90px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.contTrab3 h3{
+    margin-top: 39px;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.contTrab3 p{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+.contTrab3 a{
+    color: aliceblue;
+    margin-left: 70px;
+}
+/* contatos*/
+
+.contatos{
+    background-color: #252062;
+    color: aliceblue;
+    padding: 10px;
+    justify-content:flex-end ;
+    padding-right: 70px;
+}
+
+/*mobile*/
+@media(max-width: 1000px){
+    .container{     
+   
+    }
+    .menu{
+        background-color: #252062;
+        justify-content: space-between;
+        max-height: 70px;
+    }
+    .menu img{
+        margin-left: 10px;
+        width: 70px;
+        margin-right: 110px;
+        
+    }
+    .listmenu ul{
+        display: flex;
+        
+        
+    }
+    .listmenu li{
+        margin-left: -50px;
+
+        margin-top: -10px;
+        justify-content: space-around;        
+        
+    }.apresentacao{
+        margin: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+    .apresentacao img{
+        height: 400px;
+        min-height: 300px;
+    }    
+    .sobreMin{
+        justify-content: center;
+        flex-direction: column;
+        align-items:center ;
+        margin-bottom: 200px;
+        padding: 70px;
+        margin-right: 70px;
+    }
+    .meutrab{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+    .meutrab h1 {
+        margin-left: 50px;
+    }
+    .contTrab2{
+        margin: 30px;
+        margin-bottom: 20px;
+    }
+   
     
 }

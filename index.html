@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- menu -->
     <header class="container menu">
         
         <div>
@@ -15,13 +16,14 @@
         </div>
         <div class="listmenu">
             <ul>
-                <li><a href="#">sobre mim</a></li>
-                <li><a href="#">meus trabalhos</a></li>
-                <li><a href="#">contatos</a></li>
+                <li><a href="#sobremim">sobre mim</a></li>
+                <li><a href="#meuTrabalho">meus trabalhos</a></li>
+                <li><a href="#contato">contatos</a></li>
             </ul>
         </div>
         
     </header>
+    <!--minha foto com saudação-->
     <section class="container apresentacao">
         <div>
             <img src="imagens/Sem Título-4.png" alt="">
@@ -33,7 +35,8 @@
         </div>
 
     </section>
-    <section class="container sobreMin">
+    <!--sobre mim -->
+    <section class="container sobreMin" id="sobremim">
         
         <div>
             <h1>sobre mim</h1>
@@ -43,44 +46,48 @@
         </div>
  
     </section>
-    <section class="container">
-        <div>
-            <h1>meus trabalhos</h1>
+    <!-- meus trabalhos-->
+    <section class="meutrab container">
+        <div >
+            <div id="meuTrabalho">
+                <h1>meus trabalhos</h1>
+            </div>
+            <div class="container meutrab">
+                <div class="contTrab2">
+                    <img src="imagens/image site (2).png" alt="">
+                    <h3>sites para negocio</h3>
+                    <p>Site para divulgação do seu comercio, produto ou trabalho.</p>
+                    <a href="#">saiba mais</a>
+                </div>
+                <div class="contTrab2">
+                    <img src="imagens/image blog.png" alt="">
+                    <h3>Blogs </h3>
+                    <p>Blogs para criação de conteudo e marketing digital</p>
+                    <a href="#"> saiba mais</a>
+                </div>
+                <div class="contTrab3">
+                    <img src="imagens/image youtube.png" alt="">
+                    <h3>edição de videos e fotos</h3>
+                    <p>Edição de videos e tumbnails para o youtube</p>
+                    <a href="">saiba mais</a>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <div>
-                <img src="" alt="">
-                <h3>sites para negocio</h3>
-                <p>Site para divulgação do seu comercio, produto ou trabalho.</p>
-                <a href="#">saiba mais</a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3>Blogs </h3>
-                <p>Blogs para criação de conteudo e marketing digital</p>
-                <a href="#"> saiba mais</a>
-            </div>
-            <div>
-                <img src="" alt="">
-                <h3>edição de videos e fotos</h3>
-                <p>Edição de videos e tumbnails para o youtube</p>
-                <a href="">saiba mais</a>
-            </div>
-        </div>
-    </section>
-    <section>
+    </section>    
+    <!-- contatos -->
+    <section class="contatos" id="contato">
         <div>
             <h1>contatos</h1>
         </div>
         <div>
             <ul>
-                <li>whatsapp</li>
-                <li>instagran</li>
-                <li>linkedin</li>
+                <li><a href="#" target="_blank" rel="">whatsapp</a></li>
+                <li><a href="#" target="_blank" rel="">instagran</a></li>
+                <li><a href="#" target="_blank" rel="">linkedin</a></li>
             </ul>
         </div>
     </section>
-    <footer>
+    <footer class="contatos container">
         <div>
             <p>desenvolvido por Ananias Neto</p>
         </div>
